@@ -7,8 +7,7 @@ class CounterScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 43, 156, 255),
-        title: Center(child: const Text("Counter Screen",style: TextStyle(color: Colors.white),)),),
+        title: Center(child: const Text("Counter Screen")),),
         body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
