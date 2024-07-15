@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class _CounterFunctionsScreenState extends StatefulWidget {
-  const _CounterFunctionsScreenState({super.key});
+class CounterFunctionsScreenState extends StatefulWidget {
+  const CounterFunctionsScreenState({super.key});
 
   @override
-  State<_CounterFunctionsScreenState> createState() => __CounterFunctionsScreenStateState();
+  State<CounterFunctionsScreenState> createState() => _CounterFunctionsScreenStateState();
 }
 
-class __CounterFunctionsScreenStateState extends State<_CounterFunctionsScreenState> {
+class _CounterFunctionsScreenStateState extends State<CounterFunctionsScreenState> {
   int clickCounter = 0;
 
   @override
