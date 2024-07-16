@@ -48,13 +48,25 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             FloatingActionButton(
+              shape: const StadiumBorder(),
+              onPressed: () {
+                clickCounter++;
+                setState(() {});
+              },
+              child: const Icon(Icons.refresh_outlined),
+            ),
+            const SizedBox(height: 10),
+            FloatingActionButton(
+              shape: const StadiumBorder(),
               onPressed: () {
                 clickCounter++;
                 setState(() {});
               },
               child: const Icon(Icons.plus_one),
             ),
+            const SizedBox(height: 10),
             FloatingActionButton(
+              shape: const StadiumBorder(),
               onPressed: () {
                 clickCounter--;
                 setState(() {});
@@ -65,3 +77,6 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
         ));
   }
 }
+
+
+// Save_point_1_CounterFunctionsScreen_Section 4_62
