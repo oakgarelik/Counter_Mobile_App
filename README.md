@@ -1,4 +1,5 @@
-#Counter Mobile App
+# Counter Mobile App
+
 ![App Screenshot](Final_Counter_Mobile_App_Screenshot.png)
 
 # Info
